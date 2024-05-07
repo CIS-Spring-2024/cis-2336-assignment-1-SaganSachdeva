@@ -1,0 +1,276 @@
+/* Global Reset and Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Set base styles for the body text and background */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(34, 13, 13);
+    padding: 20px 20px 0;
+}
+
+/* Header Styles */
+header {
+    /* Centralized text and primary colors for the header */
+    text-align: center;
+    background-color: #bb0909;
+    color: #FFF3B1;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a,
+a {
+    /* General link styles */
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    /* General spacing for all sections */
+    margin: 20px 0;
+}
+
+h2 {
+    /* Primary heading color */
+    color: #edcb07;
+}
+
+img {
+    /* Responsive image styles */
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
+
+/* Figure, Details, and Aside Common Styles */
+figure,
+details,
+aside {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eee;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #bb0909;
+    color: #FFF3B1;
+    padding: 20px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+/* Link Hover Effect */
+a:hover {
+    color: #333;
+}
+
+/* Navigation Styles */
+.topnav {
+    overflow: hidden;
+    background-color: red;
+    padding-bottom: 20px;
+}
+
+.topnav a {
+    float: left;
+    padding: 14px 16px;
+    font-size: 19px;
+    color: #FFF3B1;
+    text-align: center;
+}
+
+.topnav a:hover {
+    color: #bdb585;
+}
+
+.topnav a.active {
+    color: #FFF3B1;
+}
+
+/* Logo and Navbar Styles */
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.no-bullets {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Button Styles */
+.buttons {
+    margin-left: auto;
+}
+
+.login-btn,
+.register-btn {
+    /* Common styles for both buttons */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.login-btn {
+    background-color: #bb0909;
+    color: #efba31;
+}
+
+.login-btn:hover {
+    background-color: #cd2525;
+}
+
+.register-btn {
+    background-color: #efba31;
+    color: #bb0909;
+}
+
+.register-btn:hover {
+    background-color: #b58d28;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    /* Close button styles for the modal */
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-size: cover;
+    background-image: url('');
+}
+
+/* General Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bb0909;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #da0b0b;
+}
+
+/* Paragraph Styles */
+p {
+    color: white;
+}
+
+/* Support Page */
+.team-section {
+    /* Team section layout */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Home Page */
+.operating-hours {
+    /* Align the operating hours section content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hours-list {
+    list-style-type: none;
+    color: white;
+}
+
+.day {
+    margin-bottom: 10px;
+}
+
+.hours {
+    font-weight: bold;
+}
+
+/* Menu and Events List */
+.menu-events-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-events-list li {
+    margin-right: 10px;
+}
+
